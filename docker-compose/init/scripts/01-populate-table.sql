@@ -25,9 +25,8 @@ CREATE TABLE customer_from_file
 );
 
 ----------------------------------------------
-
+          ---- From statement ----
 ----------------------------------------------
-
 
 with customer_json (doc) as (values ('[
   {
@@ -77,9 +76,8 @@ from customer_json
 select * from customer;
 
 ----------------------------------------------
-
+            ---- From file ----
 ----------------------------------------------
-
 
 \set content `cat /tmp/data/customers.json`
 create temp table customer_from_file_json ( j jsonb );
