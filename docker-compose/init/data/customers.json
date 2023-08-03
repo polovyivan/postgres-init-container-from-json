@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "full_name": "Ronald Koepp",
+    "phone_number": "324-910-3627",
+    "address": {
+      "number": "4225",
+      "street": "Joesph Highway",
+      "city": "North Jenifferside",
+      "state": "ME",
+      "zipCode": "47362"
+    },
+    "payment_types": [
+      "VISA",
+      "AMEX"
+    ],
+    "is_active": true,
+    "created_at": "2017-05-03"
+  },
+  {
+    "id": 1,
+    "full_name": "Luanne Buckridge",
+    "phone_number": "583-980-5792",
+    "address": {
+      "number": "656",
+      "street": "Moore Drive",
+      "city": "West Sanjuanitafurt",
+      "state": "VT",
+      "zipCode": "50471"
+    },
+    "payment_types": [
+      "MASTER",
+      "DISCOVER"
+    ],
+    "is_active": false,
+    "created_at": "2013-08-14"
+  }
+]

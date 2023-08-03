@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  postgres_init:
+    container_name: postgres_init
+    image: postgres:15.3
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+#    ports:
+#      - '5432:5432'
+    volumes:
+      - ./init/scripts:/docker-entrypoint-initdb.d
+      - ./init/data:/tmp/data
